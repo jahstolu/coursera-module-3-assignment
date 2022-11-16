@@ -1,0 +1,89 @@
+body {
+    background-color: #1E797C;
+    font-family: kashaun;
+    color: #C5995C;
+}
+
+/* FONTS */
+@font-face {
+    font-family: oswald;
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+    font-weight: bold;}
+@font-face {
+    font-family: kashaun;
+    src: url(Kaushan_Script/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-slab;
+    src: url(Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+    font-weight: bold;
+ }
+
+ /* HEADER */
+#header-nav {
+    background-color: #3C0000;
+    border-radius: 0;
+    border: 0;
+
+}
+#header-nav h1 {
+    font-family: oswald;
+    color: #C5995C;
+    text-shadow: 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+#header-nav .navbar-toggle  {
+    border: 1px solid #1E797C;
+    background-color: #e6d0b2;
+    clear: both;
+    margin-top: -30px;
+}
+
+#header-nav .navbar-toggle:hover {
+    background-color: #3C0000;
+}
+.navbar-default .icon-bar {
+    border: 1px solid #1E797C;
+}
+
+#collapsable-nav{
+    border: 0;
+    clear: both;
+}
+#nav-list a {
+    text-align: center;
+    
+}
+
+#nav-list a:hover {
+    background-color: #C5995C;
+}
+
+/* END OF HEADER */
+
+/* MAIN CONTENT */
+
+.page-heading {
+    font-family: roboto-slab;
+    color: #3C0000;
+}
+
+#menu-sections .outer {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.home-section {
+    background-color: #3b1414;
+    padding: 15px;
+    border-radius: 5px;
+    color: #949494;
+}
+
+.section-head {
+    font-family: roboto-slab;
+    padding-bottom: 20px;
+}
+
